@@ -1,0 +1,530 @@
+body{
+    padding: 0px;
+    margin: 0px;
+
+
+
+}
+
+.contenedor-titulo {
+    font-family: 'Courier New', monospace;
+    font-size: 24px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 2px solid black;
+    width: 12ch; /* Define el ancho basado en la cantidad de caracteres */
+    animation: typing 3s steps(30, end), blink 0.6s step-end infinite;
+  }
+  
+  @keyframes typing {
+    from {
+      width: 0;
+    }
+    to {
+      width: 12ch; /* Debe coincidir con el ancho del texto */
+    }
+  }
+  
+  @keyframes blink {
+    from {
+      border-color: transparent;
+    }
+    to {
+      border-color: black;
+    }
+  }
+
+
+
+
+.principal{
+    width: 100vw;
+    height: 100vh;
+}
+.cabeza1{
+    width: 100%;
+    height: 80%;
+    background-color:rgba(10, 0, 26, 1) ;
+    border-radius: 0px 0px 0px 0px;
+}
+.contenedor1{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.imagen1{
+
+    display: none;
+}
+.caja1{
+    width: 50%;
+    height: 100%;
+    /* border: solid white; */
+}
+.caja2{
+    width: 50%;
+    height: 100%;
+    /* border: solid white; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.imagen{
+
+    width: auto;
+    height: 60%;
+}
+
+.informacion{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+.informacion1{
+    display: none;
+  
+
+}
+/* Proximo arregalar */
+.contenedor-titulo{
+    width: 100%;
+    height: 50%;
+    /* border: solid rebeccapurple; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contenedor-titulo2{
+
+    display: flex;
+    justify-content: center;
+    text-align:justify;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+}
+
+
+.texto1{
+    width: 80%;
+    height: 100%;
+    font-size: 14px;
+    color: white;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
+    
+ 
+
+}
+
+
+
+
+.contenido1{
+    width: 100%;
+    height: 10%;
+    /* border: solid; */
+    display: flex;
+    flex-direction: column;
+
+}
+.centro-texto{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 50%;
+   
+
+}
+.contenido{
+    border-bottom: 50px;
+    width: 100%;
+    height: 200%;
+    /* border: solid; */
+    /* border: solid red; */
+}
+.titulo-2{
+    font-size: 25px;
+    font-weight: bold;
+}
+.texto-informacion{
+
+    font-size: 15px;
+    font-weight:lighter;
+
+}
+/* cuidado */
+
+.principal11{
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 10px;
+    justify-content: center;
+}
+
+
+.tarjeta1{
+    width: 28%;
+    height: 75%;
+    border: solid black 1px;
+    border-radius: 20px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: transparent; /* Fondo completamente transparente */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(5px); /* Opcional: efecto de desenfoque detrás */
+    border: 1px solid rgba(51, 50, 50, 0.3); /* Opcional: borde semitransparente */
+
+
+}
+.tarjeta1:hover {
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.3); /* Sombra más fuerte en hover */
+    transform: translateY(-3px);
+    transition: all 0.3s ease;
+
+
+}
+
+
+
+.margen1{
+    border-radius: 20px 20px 0px 0px;
+    width: 90%;
+    height: 90%;
+    /* border: solid; */
+    display: flex;
+    /* justify-content: center; */
+    
+    flex-direction: column;
+    
+}
+
+.imagen2{
+    width: 100%;
+
+
+}
+.contendor-textos{
+    width: 100%;
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+
+
+}
+.titulo-titulo{
+    /* border: solid; */
+    width: 90%;
+
+}
+
+
+.contenido-iconos{
+    display: grid;
+    grid-template-columns: 40% auto auto auto auto auto auto;
+    /* border: solid red; */
+}
+
+.contenido-iconos div {
+    /* border: solid; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.iconos1{
+    width: 75%;
+    height: 75%;
+    /* height: 5%; */
+    /* width: 110%; */
+    /* border: solid rebeccapurple; */
+    fill: #6DB33F;
+
+}
+
+
+.iconos2{
+    width: 75%;
+    height: 75%;
+    /* border: solid rebeccapurple; */
+    fill: #6DB33F;
+   
+
+}
+
+
+
+.iconos2{
+    width: 75%;
+    height: 75%;
+    /* border: solid rebeccapurple; */
+    fill: #1572B6;
+   
+
+}
+
+
+.iconos3{
+    width: 75%;
+    height: 75%;
+    /* border: solid rebeccapurple; */
+    fill: #E34F26;
+   
+
+}
+
+
+.iconos4{
+    width: 75%;
+    height: 75%;
+    /* border: solid rebeccapurple; */
+    fill: #3178C6;
+   
+
+}
+
+.iconos5{
+    width: 75%;
+    height: 75%;
+    /* border: solid rebeccapurple; */
+    fill:  rgb(221, 27, 22);
+   
+
+}
+.iconos7{
+    width: 75%;
+    height: 75%;
+    /* border: solid rebeccapurple; */
+    fill:  #181717;
+   
+
+}
+
+#piedepagina{
+    height:15%;
+    width:100%;
+    background-color:#7db8f7;
+    position:relative;
+}
+
+#finaldepagina{
+    position:absolute;
+    top:10px;
+    left:550px;
+    font-weight:bold;
+    font-size:18px;
+
+}
+
+#contacto{
+    position:absolute;
+    text-decoration: none;
+    top:50px;
+    left:650px;
+    font-weight:bold;
+    font-size:18px;
+    color:blue;
+
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+.Menu1{
+    width: auto;
+    height: 9%;
+    background-color: #181717;
+   
+}
+
+
+
+@media only screen and (max-width: 768px) {
+    /* Estilos para smartphones en modo vertical */
+    .principal{
+        width: 100vw;
+        height: 100vh;
+    }
+    .contenido{
+
+        width: 100%;
+        height: 420%;
+        /* border: solid; */
+    
+    }
+    .cabeza1{
+        width: 100%;
+        height: 70%;
+        background-color:rgba(10, 0, 26, 1) ;
+    
+    
+    }
+    .contenedor1{
+
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        /* border: solid beige; */
+    }
+    .caja1{
+        width: 100%;
+        height: 100%;
+        /* border: solid white; */
+        display: flex;
+        justify-content: center;
+    
+    }
+    .caja2{
+        width: 100%;
+        height: 100%;
+        /* border: solid white; */
+    
+    }
+    .imagen{
+        display: none;
+        width: auto;
+        height: 80%;
+    }
+    .imagen1{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .informacion{
+        display: none;
+
+    }
+    
+    .informacion1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        /* border: solid wheat; */
+        
+    }
+
+    .principal11{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column; 
+        flex-wrap: nowrap; 
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .tarjeta1{
+        width: 90%;
+        height: 90%;
+        border: solid black 1px;
+        border-radius: 20px ;
+        background: transparent; /* Fondo completamente transparente */
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        /* backdrop-filter: blur(5px); Opcional: efecto de desenfoque detrás */
+        border: 1px solid rgba(51, 50, 50, 0.3); /* Opcional: borde semitransparente */
+
+    
+    
+    }
+
+
+
+
+}
+
+
+@media only screen and (max-width: 600px) {
+
+    .principal{
+        width: 100vw;
+        height: 100vh;
+    }
+
+    .contenido{
+
+        width: 100%;
+        height: 6000%;
+        /* border: solid; */
+        /* margin-bottom: 80%; */
+    
+    }
+    .cabeza1 {
+        width: 100%;
+        height: auto;
+        background-color: rgba(10, 0, 26, 1);
+    }
+
+    .contenedor1 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .caja1, .caja2 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .imagen {
+        display: none;
+    }
+
+    .imagen1 {
+        width: 5%;
+        height: 5%;
+        display: block;
+    }
+
+    .informacion {
+        display: none;
+    }
+
+    .informacion1 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+        color: white;
+    }
+
+    .principal11 {
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column; 
+        flex-wrap: nowrap; 
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .tarjeta1 {
+        width: 90%;
+        height: auto;
+        border: 1px solid rgba(51, 50, 50, 0.3);
+        border-radius: 20px;
+        background: transparent;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        transform: translateY(-3px);
+    }
+}

@@ -451,6 +451,11 @@ body{
 
 
 @media only screen and (max-width: 600px) {
+    .centro-texto{
+
+        display: flex;
+        align-items: center;
+    }
 
     .principal{
         width: 100vw;

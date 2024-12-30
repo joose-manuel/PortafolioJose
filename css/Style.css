@@ -350,7 +350,104 @@ body{
 
 
 
+@media only screen and (max-width: 768px) {
+    /* Estilos para smartphones en modo vertical */
+    .principal{
+        width: 100vw;
+        height: 100vh;
+    }
+    .contenido{
 
+        width: 100%;
+        height: 100%;
+        /* border: solid; */
+    
+    }
+    .cabeza1{
+        width: 100%;
+        height: 70%;
+        background-color:rgba(10, 0, 26, 1) ;
+    
+    
+    }
+    .contenedor1{
+
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        /* border: solid beige; */
+    }
+    .caja1{
+        width: 100%;
+        height: 100%;
+        /* border: solid white; */
+        display: flex;
+        justify-content: center;
+    
+    }
+    .caja2{
+        width: 100%;
+        height: 100%;
+        /* border: solid white; */
+    
+    }
+    .imagen{
+        display: none;
+        width: auto;
+        height: 80%;
+    }
+    .imagen1{
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .informacion{
+        display: none;
+
+    }
+    
+    .informacion1{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        color: white;
+        /* border: solid wheat; */
+        
+    }
+
+    .principal11{
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: column; 
+        flex-wrap: nowrap; 
+        gap: 10px;
+        justify-content: center;
+        align-items: center;
+    
+    }
+
+    .tarjeta1{
+        width: 90%;
+        height: 90%;
+        border: solid black 1px;
+        border-radius: 20px ;
+        background: transparent; /* Fondo completamente transparente */
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+        /* backdrop-filter: blur(5px); Opcional: efecto de desenfoque detrás */
+        border: 1px solid rgba(51, 50, 50, 0.3); /* Opcional: borde semitransparente */
+
+    
+    
+    }
+
+
+
+
+}
 
 
 @media only screen and (max-width: 600px) {
@@ -393,8 +490,8 @@ body{
     }
 
     .imagen1 {
-        width: 5%;
-        height: 5%;
+        width: 100%;
+        height: 100%;
         display: block;
     }
 

@@ -455,6 +455,17 @@ body{
 
         display: flex;
         align-items: center;
+        justify-content: center;
+       
+  
+    }
+    .texto-informacion{ 
+       border: solid;
+       /* padding-left: 5px;
+       padding-right: 5px; */
+       display: flex;
+       justify-content: center;
+       align-items: center;
     }
 
     .principal{

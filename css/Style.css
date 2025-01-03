@@ -99,6 +99,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: "Inter", serif;
+    font-optical-sizing: auto;
 
 }
 .contenedor-titulo2{
@@ -118,7 +120,8 @@ body{
     color: white;
     font-family: "Inter", serif;
     font-optical-sizing: auto;
-    
+     font-family: "Inter", serif;
+    font-optical-sizing: auto;
  
 
 }
@@ -138,7 +141,7 @@ body{
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 50%;
+    height: 50%;    
    
 
 }
@@ -154,9 +157,10 @@ body{
     font-weight: bold;
 }
 .texto-informacion{
-
+    
     font-size: 15px;
     font-weight:lighter;
+  
 
 }
 /* cuidado */
@@ -225,7 +229,7 @@ body{
 .titulo-titulo{
     /* border: solid; */
     width: 90%;
-
+    font-family: "Inter", serif;
 }
 
 

@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+
+# Nx workspace cache / generated
+.nx/
+tmp/
+dist/
+out-tsc/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Logs
+*.log
+npm-debug.log*
+yarn-error.log*
+
+# System Files
+.DS_Store
+Thumbs.db
+
+# AI agent skills (local tooling, reinstallable via `npx skills add` / `uipro`)
+.opencode/
+.claude/
+.agents/
+skills/
+design-taste-frontend/
+
+# Keep the skills lockfile so installs are reproducible
+!skills-lock.json
+
+# Coverage
+coverage/
+.nyc_output/
